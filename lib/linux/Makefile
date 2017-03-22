@@ -1,0 +1,62 @@
+# ----------------------------------------------------------------------------
+# --- Installer for lib files                                     Makefile ---
+# ---                                                                      ---
+# ---  created:  28-Feb-2004 (der - SecuGen) 
+# ----------------------------------------------------------------------------
+#
+
+# --- library version ---
+LIBSGFPLIB_VERSION_MAJOR = 3
+LIBSGFPLIB_VERSION_MINOR = 7
+LIBSGFPLIB_VERSION_MICRO = 1
+LIBSGFPLIB_VERSION       = $(LIBSGFPLIB_VERSION_MAJOR).$(LIBSGFPLIB_VERSION_MINOR).$(LIBSGFPLIB_VERSION_MICRO)
+LIBMINEX_VERSION_MAJOR = 3
+LIBMINEX_VERSION_MINOR = 5
+LIBMINEX_VERSION_MICRO = 1
+LIBMINEX_VERSION       = $(LIBMINEX_VERSION_MAJOR).$(LIBMINEX_VERSION_MINOR).$(LIBMINEX_VERSION_MICRO)
+LIBSGFDU05_VERSION_MAJOR = 1
+LIBSGFDU05_VERSION_MINOR = 0
+LIBSGFDU05_VERSION_MICRO = 1
+LIBSGFDU05_VERSION       = $(LIBSGFDU05_VERSION_MAJOR).$(LIBSGFDU05_VERSION_MINOR).$(LIBSGFDU05_VERSION_MICRO)
+LIBSGFDU04_VERSION_MAJOR = 1
+LIBSGFDU04_VERSION_MINOR = 0
+LIBSGFDU04_VERSION_MICRO = 4
+LIBSGFDU04_VERSION       = $(LIBSGFDU04_VERSION_MAJOR).$(LIBSGFDU04_VERSION_MINOR).$(LIBSGFDU04_VERSION_MICRO)
+LIBSGFDU03_VERSION_MAJOR = 2
+LIBSGFDU03_VERSION_MINOR = 0
+LIBSGFDU03_VERSION_MICRO = 6
+LIBSGFDU03_VERSION       = $(LIBSGFDU03_VERSION_MAJOR).$(LIBSGFDU03_VERSION_MINOR).$(LIBSGFDU03_VERSION_MICRO)
+
+# --- global definitions ---
+SUDO         = sudo
+LIB_LOCATION = /usr/local/lib
+
+# --- definitions for compiling linux (use -pg in CFLAGS when using gprof) ---
+
+LIBSGFDU05 = libsgfdu05.so
+LIBSGFDU04 = libsgfdu04.so
+LIBSGFDU03 = libsgfdu03.so
+LIBSGFPLIB = libsgfplib.so
+LIBMINEX = libsgfpamx.so
+LIBJNISGFPLIB = libjnisgfplib.so
+
+info:
+	-@echo "  make install    ->  install the shared library"
+
+install:
+	$(SUDO) cp $(LIBSGFDU05).$(LIBSGFDU05_VERSION) $(LIB_LOCATION)
+	$(SUDO) cp $(LIBSGFDU04).$(LIBSGFDU04_VERSION) $(LIB_LOCATION)
+	$(SUDO) cp $(LIBSGFDU03).$(LIBSGFDU03_VERSION) $(LIB_LOCATION)
+	$(SUDO) cp $(LIBSGFPLIB).$(LIBSGFPLIB_VERSION) $(LIB_LOCATION)
+	$(SUDO) cp $(LIBMINEX).$(LIBMINEX_VERSION) $(LIB_LOCATION)
+	$(SUDO) cp $(LIBJNISGFPLIB).$(LIBSGFPLIB_VERSION) $(LIB_LOCATION)
+	$(SUDO) /sbin/ldconfig $(LIB_LOCATION)
+
+uninstall:
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBSGFDU05)*
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBSGFDU04)*
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBSGFDU03)*
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBSGFPLIB)*
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBMINEX)*
+	$(SUDO) rm -f $(LIB_LOCATION)/$(LIBJNISGFPLIB)*
+	$(SUDO) /sbin/ldconfig $(LIB_LOCATION)

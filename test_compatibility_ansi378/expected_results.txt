@@ -1,0 +1,105 @@
+
+-------------------------------------
+SecuGen Algorithm Test
+-------------------------------------
+SGFPM_InitEx returned : [0]
+SGFPM_SetTemplateFormat returned : [0]
+SGFPM_GetMaxTemplateSize returned : [0] max size is: [800]
+SGFPM_CreateTemplate returned : [0]
+SGFPM_GetTemplateSize returned : [0] size is: [218]
+SGFPM_CreateTemplate returned : [0]
+SGFPM_GetTemplateSize returned : [0] size is: [254]
+SGFPM_CreateTemplate returned : [0]
+SGFPM_GetTemplateSize returned : [0] size is: [206]
+
+Test Cross-Platform Minutiae Files
+__________________________________
+RET:[0] 0_10_3_linux.ansi378 <> 0_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 0_10_3_sparc_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 0_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 0_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 0_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 0_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 0_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 0_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 0_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 0_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 0_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 0_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 0_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 0_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 1_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 1_10_3_sparc_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 1_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 1_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 1_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 1_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 1_10_3_linux.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 1_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 1_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 1_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 1_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 1_10_3_linux.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 1_10_3_sparc_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 1_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 1_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 1_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 1_10_3_linux.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 1_10_3_sparc_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 1_10_3_ibm.ansi378 SCORE:	199
+RET:[0] 0_10_3_windows.ansi378 <> 1_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_ibm.ansi378 <> 1_10_3_x86_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_ibm.ansi378 <> 1_10_3_linux.ansi378 SCORE:	199
+RET:[0] 0_10_3_ibm.ansi378 <> 1_10_3_sparc_solaris10.ansi378 SCORE:	199
+RET:[0] 0_10_3_ibm.ansi378 <> 1_10_3_windows.ansi378 SCORE:	199
+RET:[0] 0_10_3_ibm.ansi378 <> 1_10_3_extract.ansi378 SCORE:	199
+RET:[0] 0_10_3_linux.ansi378 <> 2_10_3_windows.ansi378 SCORE:	176
+RET:[0] 0_10_3_linux.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_linux.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_linux.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	176
+RET:[0] 0_10_3_linux.ansi378 <> 2_10_3_extract.ansi378 SCORE:	176
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 2_10_3_windows.ansi378 SCORE:	176
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 2_10_3_linux.ansi378 SCORE:	176
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	176
+RET:[0] 0_10_3_sparc_solaris10.ansi378 <> 2_10_3_extract.ansi378 SCORE:	176
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 2_10_3_windows.ansi378 SCORE:	176
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 2_10_3_linux.ansi378 SCORE:	176
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	176
+RET:[0] 0_10_3_x86_solaris10.ansi378 <> 2_10_3_extract.ansi378 SCORE:	176
+RET:[0] 0_10_3_windows.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_windows.ansi378 <> 2_10_3_linux.ansi378 SCORE:	176
+RET:[0] 0_10_3_windows.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_windows.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	176
+RET:[0] 0_10_3_windows.ansi378 <> 2_10_3_extract.ansi378 SCORE:	176
+RET:[0] 0_10_3_ibm.ansi378 <> 2_10_3_windows.ansi378 SCORE:	176
+RET:[0] 0_10_3_ibm.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_ibm.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	176
+RET:[0] 0_10_3_ibm.ansi378 <> 2_10_3_linux.ansi378 SCORE:	176
+RET:[0] 0_10_3_ibm.ansi378 <> 2_10_3_extract.ansi378 SCORE:	176
+RET:[0] 1_10_3_linux.ansi378 <> 2_10_3_windows.ansi378 SCORE:	192
+RET:[0] 1_10_3_linux.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_linux.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_linux.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	192
+RET:[0] 1_10_3_linux.ansi378 <> 2_10_3_extract.ansi378 SCORE:	192
+RET:[0] 1_10_3_sparc_solaris10.ansi378 <> 2_10_3_windows.ansi378 SCORE:	192
+RET:[0] 1_10_3_sparc_solaris10.ansi378 <> 2_10_3_linux.ansi378 SCORE:	192
+RET:[0] 1_10_3_sparc_solaris10.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_sparc_solaris10.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	192
+RET:[0] 1_10_3_sparc_solaris10.ansi378 <> 2_10_3_extract.ansi378 SCORE:	192
+RET:[0] 1_10_3_x86_solaris10.ansi378 <> 2_10_3_windows.ansi378 SCORE:	192
+RET:[0] 1_10_3_x86_solaris10.ansi378 <> 2_10_3_linux.ansi378 SCORE:	192
+RET:[0] 1_10_3_x86_solaris10.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_x86_solaris10.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	192
+RET:[0] 1_10_3_x86_solaris10.ansi378 <> 2_10_3_extract.ansi378 SCORE:	192
+RET:[0] 1_10_3_windows.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_windows.ansi378 <> 2_10_3_linux.ansi378 SCORE:	192
+RET:[0] 1_10_3_windows.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_windows.ansi378 <> 2_10_3_ibm.ansi378 SCORE:	192
+RET:[0] 1_10_3_windows.ansi378 <> 2_10_3_extract.ansi378 SCORE:	192
+RET:[0] 1_10_3_ibm.ansi378 <> 2_10_3_windows.ansi378 SCORE:	192
+RET:[0] 1_10_3_ibm.ansi378 <> 2_10_3_sparc_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_ibm.ansi378 <> 2_10_3_x86_solaris10.ansi378 SCORE:	192
+RET:[0] 1_10_3_ibm.ansi378 <> 2_10_3_linux.ansi378 SCORE:	192
+RET:[0] 1_10_3_ibm.ansi378 <> 2_10_3_extract.ansi378 SCORE:	192
